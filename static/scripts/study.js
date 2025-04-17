@@ -338,6 +338,22 @@ document.addEventListener("keypress", function(e) {
             checkButtonClick();
         }
     }
+    else if (e.key == "1")
+    {
+        selectAnswer1();
+    }
+    else if (e.key == "2")
+    {
+        selectAnswer2();
+    }
+    else if (e.key == "3")
+    {
+        selectAnswer3();
+    }
+    else if (e.key == "4")
+    {
+        selectAnswer4();
+    }
 });
 
 generateNewQuestion();
