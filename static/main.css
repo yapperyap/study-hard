@@ -28,7 +28,6 @@ p
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    white-space: pre;
 }
 
 .section-1
@@ -74,15 +73,13 @@ p
     padding:10px;
     background-color: #f1f1f1;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius:20px;
+    border-radius:10px;
     border-width: 0px;
     font-size: 20px;
     text-align: left;
     width:80%;
-    height:35%;
     color:#1b1b1b;
     cursor: pointer;
-    white-space: pre;
 }
 
 .indented
@@ -95,6 +92,7 @@ p
 #question
 {
     text-align: left;
+    white-space: normal;
 }
 
 .checkbutton

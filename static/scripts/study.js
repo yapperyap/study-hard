@@ -93,10 +93,10 @@ function generateNewQuestion()
 
     var randomQuestion = questionBank[Math.floor(Math.random()*questionBankLength)];
     question.textContent = randomQuestion[0];
-    answer1.textContent = "A.  " + randomQuestion[1];
-    answer2.textContent = "B.  " + randomQuestion[2];
-    answer3.textContent = "C.  " + randomQuestion[3];
-    answer4.textContent = "D.  " + randomQuestion[4];
+    answer1.textContent = "A. " + randomQuestion[1];
+    answer2.textContent = "B. " + randomQuestion[2];
+    answer3.textContent = "C. " + randomQuestion[3];
+    answer4.textContent = "D. " + randomQuestion[4];
     multipleSelect = randomQuestion[5];
 
     if (multipleSelect)
